@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecovida - Productos</title>
+    <title>Ecovida - [Nombre de la Página]</title>
     <meta name="description" content="Ecovida - Productos ecológicos y sostenibles para un futuro mejor. Encuentra productos orgánicos, para el hogar y cuidado personal.">
     <meta name="keywords" content="ecovida, productos ecológicos, sostenible, orgánico, vida sana, medio ambiente, cero residuos, cuidado personal, hogar ecológico">
     <meta name="author" content="Ecovida Team">
-    <link rel="canonical" href="https://ecovidaonline.netlify.app/productos.html"> 
-
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="canonical" href="https://ecovida-lnoelb.netlify.app/"> <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    </head>
 <body>
     <header>
         <nav>
@@ -26,16 +24,20 @@
     </header>
 
     <main>
-        <section class="products-list">
-            <h1>Nuestros Productos Ecológicos</h1>
-            <div id="productos-api-container" class="product-grid-flex">
-                <p>Cargando productos...</p> 
+        <section class="cart-section">
+            <h1>Tu Carrito de Compras</h1>
+            <div id="items-carrito" class="carrito-items-container">
+                <p>Cargando carrito...</p>
+            </div>
+            <div class="carrito-resumen">
+                <h3>Total del Carrito: $<span id="total-carrito">0.00</span></h3>
+                <button class="checkout-button">Proceder al Pago</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Ecovida. Todos los derechos reservados.</p>
+        <p>© 2025 Ecovida. Todos los derechos reservados.</p>
         <div class="social-icons">
             <img src="./img/facebook.png" alt="Facebook">
             <img src="./img/instagram.png" alt="Instagram">
